@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MANGO — Premium Aesthetic Fruit Brand</title>
+        <title>MANGO — Premium Fruit Brand</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -13,42 +13,79 @@
         <main>
             <!-- HERO -->
             <header class="hero">
+                <div class="hero-bg"></div>
                 <div class="hero-inner reveal">
-                      <h1 class="brand">MANGO</h1>
-                      <p class="tag">Süß. Tropisch. Natürlich luxuriös.</p>
-
-                    <div class="mango-figure" aria-hidden>
-                        <!-- stylisierte Mango SVG -->
-                        <svg width="360" height="360" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="mango-svg">
-                            <defs>
-                                <linearGradient id="g1" x1="0" x2="1">
-                                    <stop offset="0%" stop-color="#FFD6A5" />
-                                    <stop offset="60%" stop-color="#FFB74D" />
-                                    <stop offset="100%" stop-color="#FFECD2" />
-                                </linearGradient>
-                            </defs>
-                            <g transform="translate(20,10)">
-                                <path d="M85 10 C120 10 155 40 150 80 C145 120 110 160 70 155 C30 150 10 110 20 70 C30 30 50 10 85 10 Z" fill="url(#g1)" stroke="#E6A24A" stroke-width="1.5"/>
-                                <path d="M120 35 C130 20 150 10 160 20" stroke="#6DAF5A" stroke-width="3" stroke-linecap="round" fill="none"/>
-                            </g>
-                        </svg>
+                    <div class="hero-content">
+                        <h1 class="brand">MANGO</h1>
+                        <p class="tag">Süß. Tropisch. Natürlich luxuriös.</p>
+                        <p class="lead">Handverlesene Früchte, fotografiert und präsentiert mit editorialer Sorgfalt.</p>
                     </div>
+
+                    <figure class="hero-figure">
+                        <img src="https://images.unsplash.com/photo-1619711545188-7b1c9a8f4016?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=5b1f3a1f8e8f8c3b8d5f8f9c6e7a1b2c" alt="Reife Mango auf hellem Hintergrund" loading="lazy">
+                        <figcaption>Premium Mango — Fotografie: Unsplash</figcaption>
+                    </figure>
                 </div>
             </header>
 
             <!-- INTRO -->
-            <section class="intro reveal">
-                <div class="card">
-                    <h2>Über Mango</h2>
-                    <p>Mango ist eine hochwertige Tropenfrucht, geschätzt für ihre samtige Textur, sonnenverwöhnte Süße und feine blumige Aromen — kultiviert mit Sorgfalt für ein natürlich luxuriöses Erlebnis.</p>
+            <section class="about reveal" id="about">
+                <div class="container grid-2">
+                    <div class="card">
+                        <h2>Was ist eine Mango?</h2>
+                        <p>Mango (Mangifera indica) ist eine uralte Tropenfrucht mit Ursprung in Südasien. Seit Jahrtausenden kultiviert, hat sie sich zur weltweit geschätzten Tropenfrucht entwickelt. Ihre Textur reicht von buttrig und cremig bis zu leicht faserig; das Aroma variiert von honigsüß über vanillig bis hin zu feinen, blumigen Noten.</p>
+                        <p>Heute wird die Mango frisch, als Saft, in feinen Desserts und in herzhaften Gerichten genossen. Ihre Vielseitigkeit und ihr sonniger Geschmack machen sie zu einem Symbol tropischer Raffinesse.</p>
+                    </div>
+
+                    <figure class="about-figure">
+                        <img src="https://images.unsplash.com/photo-1506808547685-e2ba962ded36?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3a7e3a1d4f2b5e6f7c8d9e0a1b2c3d4e" alt="Mango Baum am Morgen" loading="lazy">
+                        <figcaption>Plantagenblick: Mango-Baum</figcaption>
+                    </figure>
                 </div>
             </section>
 
             <!-- FEATURES -->
-            <section class="features">
+            <section class="origins reveal" id="origins">
+                <div class="container grid-2">
+                    <div class="card">
+                        <h2>Wo Mangos wachsen</h2>
+                        <p>Indien gilt als Ursprungsregion der Mango und ist bis heute einer der größten Produzenten. Südostasien, darunter Thailand und die Philippinen, beherbergt eine enorme Sortenvielfalt. In Lateinamerika (z. B. Mexiko, Brasilien) sowie in Teilen Afrikas haben sich in den letzten Jahrzehnten großflächige Plantagen etabliert, sodass Mangos heute weltweit erhältlich sind.</p>
+                        <p>Jede Anbauregion hat ihre eigenen Sorten, Erntetechniken und kulinarischen Traditionen — von handwerklicher Pflege bis zu modernen, nachhaltigen Methoden.</p>
+                    </div>
+
+                    <figure class="about-figure">
+                        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1f2d3c4b5a6e7f8d9c0b1a2e3d4f5a6b" alt="Mango Plantage" loading="lazy">
+                        <figcaption>Mango-Plantage in der Morgenluft</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- WORLD MAP -->
+            <section class="worldmap reveal" id="map">
                 <div class="container">
-                      <h3 class="section-title reveal">Kernwerte</h3>
-                    <div class="feature-grid">
+                      <h2>Anbaugebiete</h2>
+                      <p class="muted">Hauptanbaugebiete und historische Zentren der Mango-Kultur.</p>
+
+                    <div class="map-wrap">
+                        <svg class="map" viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid meet">
+                            <rect width="100%" height="100%" fill="transparent" />
+                            <!-- simplified world silhouette could be added here; we use markers -->
+                            <g class="markers">
+                                <!-- India -->
+                                <circle class="marker" data-name="Indien" cx="520" cy="190" r="8" fill="#FFB74D" />
+                                <!-- Thailand -->
+                                <circle class="marker" data-name="Thailand" cx="560" cy="200" r="6" fill="#FFB74D" />
+                                <!-- Philippines -->
+                                <circle class="marker" data-name="Philippinen" cx="600" cy="175" r="6" fill="#FFB74D" />
+                                <!-- Mexico -->
+                                <circle class="marker" data-name="Mexiko" cx="200" cy="170" r="6" fill="#FFB74D" />
+                                <!-- Brazil -->
+                                <circle class="marker" data-name="Brasilien" cx="300" cy="250" r="6" fill="#FFB74D" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </section>
                         <article class="feature-card reveal">
                             <div class="icon">
                                 <svg viewBox="0 0 24 24" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,57 +123,115 @@
             </section>
 
             <!-- VARIETIES -->
-            <section class="varieties reveal">
+            <section class="usage reveal" id="usage">
                 <div class="container">
-                      <h3 class="section-title">Sorten</h3>
+                      <h2>Verwendung</h2>
+                      <p>Mangos sind vielseitig verwendbar: als erfrischender Smoothie, in feinen Desserts, in Salaten, Salsas, Saucen oder als Bestandteil regionaler Streetfood‑Klassiker.</p>
+                    <div class="usage-grid">
+                        <div class="usage-item">
+                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" alt="Mango-Smoothie" loading="lazy">
+                            <h4>Smoothies</h4>
+                        </div>
+                        <div class="usage-item">
+                            <img src="https://images.unsplash.com/photo-1543353071-087092ec3939?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=def" alt="Mango-Dessert" loading="lazy">
+                            <h4>Desserts</h4>
+                        </div>
+                        <div class="usage-item">
+                            <img src="https://images.unsplash.com/photo-1542444459-db0b7a5a5f29?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=ghi" alt="Mango-Salat" loading="lazy">
+                            <h4>Salate &amp; Salsas</h4>
+                        </div>
+                        <div class="usage-item">
+                            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=jkl" alt="Mango-Streetfood" loading="lazy">
+                            <h4>Straßenessen</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="varieties reveal" id="varieties">
+                <div class="container">
+                      <h2>Sorten</h2>
+                      <p class="muted">Auswahl ausgewählter Sorten mit kurzen Beschreibungen.</p>
                     <div class="variety-grid">
                         <div class="var-card">
-                            <div class="var-icon" style="--h:#FFD6A5;">
-                                <svg viewBox="0 0 24 24"><path d="M6 10c2-5 10-6 12 0 1 4-3 8-6 8s-7-3-6-8z" fill="var(--h)"/></svg>
-                            </div>
-                              <h5>Alphonso</h5>
-                              <p>Seidige Textur, honigsüß — der König der Mangos.</p>
+                            <img src="https://images.unsplash.com/photo-1604908177522-4a3b2a3f9f2d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="Alphonso Mango">
+                            <h5>Alphonso</h5>
+                            <p>Seidige Textur, honigsüß — der König der Mangos.</p>
                         </div>
 
                         <div class="var-card">
-                            <div class="var-icon" style="--h:#FFB74D;">
-                                <svg viewBox="0 0 24 24"><path d="M6 10c2-5 10-6 12 0 1 4-3 8-6 8s-7-3-6-8z" fill="var(--h)"/></svg>
-                            </div>
-                              <h5>Kent</h5>
-                              <p>Saftig und faserig mit ausgewogen süß-säuerlichen Noten.</p>
+                            <img src="https://images.unsplash.com/photo-1574226516831-e1dff420e8f8?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=2" alt="Kent Mango">
+                            <h5>Kent</h5>
+                            <p>Saftig und faserig mit ausgewogen süß-säuerlichen Noten.</p>
                         </div>
 
                         <div class="var-card">
-                            <div class="var-icon" style="--h:#FFC58F;">
-                                <svg viewBox="0 0 24 24"><path d="M6 10c2-5 10-6 12 0 1 4-3 8-6 8s-7-3-6-8z" fill="var(--h)"/></svg>
-                            </div>
-                              <h5>Ataulfo</h5>
-                              <p>Klein, buttrig und intensiv süß — eine cremige Freude.</p>
+                            <img src="https://images.unsplash.com/photo-1519885270560-5d6f1f1b9b1b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3" alt="Ataulfo Mango">
+                            <h5>Ataulfo</h5>
+                            <p>Klein, buttrig und intensiv süß — eine cremige Freude.</p>
                         </div>
 
                         <div class="var-card">
-                            <div class="var-icon" style="--h:#FFE6B3;">
-                                <svg viewBox="0 0 24 24"><path d="M6 10c2-5 10-6 12 0 1 4-3 8-6 8s-7-3-6-8z" fill="var(--h)"/></svg>
-                            </div>
-                              <h5>Tommy Atkins</h5>
-                              <p>Fest, lebendig und verlässlich — ein klassischer Allrounder.</p>
+                            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=4" alt="Tommy Atkins Mango">
+                            <h5>Tommy Atkins</h5>
+                            <p>Fest, lebendig und verlässlich — ein klassischer Allrounder.</p>
                         </div>
 
                         <div class="var-card">
-                            <div class="var-icon" style="--h:#FFDAB3;">
-                                <svg viewBox="0 0 24 24"><path d="M6 10c2-5 10-6 12 0 1 4-3 8-6 8s-7-3-6-8z" fill="var(--h)"/></svg>
-                            </div>
-                              <h5>Keitt</h5>
-                              <p>Groß, spät reifend mit einem milden, süßen Profil.</p>
+                            <img src="https://images.unsplash.com/photo-1524594154902-1e7c9a3c4c3e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=5" alt="Keitt Mango">
+                            <h5>Keitt</h5>
+                            <p>Groß, spät reifend mit einem milden, süßen Profil.</p>
                         </div>
 
                         <div class="var-card">
-                            <div class="var-icon" style="--h:#FFE0B2;">
-                                <svg viewBox="0 0 24 24"><path d="M6 10c2-5 10-6 12 0 1 4-3 8-6 8s-7-3-6-8z" fill="var(--h)"/></svg>
-                            </div>
-                              <h5>Palmer</h5>
-                              <p>Eleganter Geschmack, aromatischer Abgang — verfeinert und sanft.</p>
+                            <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6" alt="Palmer Mango">
+                            <h5>Palmer</h5>
+                            <p>Eleganter Geschmack, aromatischer Abgang — verfeinert und sanft.</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="varieties-section reveal" id="varieties-facts">
+                <div class="container">
+                    <h2 class="section-title">Entdecke die Vielfalt der Mangos</h2>
+                    <p class="section-subtitle">Echte Sortenfotos mit ausgewählten Fakten, die jede Frucht einzigartig machen.</p>
+                    <div class="varieties-grid">
+                        <article class="variety-card">
+                            <img src="https://images.unsplash.com/photo-1592928303523-5db72a2a1a2b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Echtes Alphonso Mango Foto" loading="lazy">
+                            <h3>Alphonso</h3>
+                            <p>Goldgelbe Premium-Sorte aus Indien. Wird wegen ihres intensiven Duftes und ihrer besonders cremigen Textur als König der Mangos geschätzt.</p>
+                        </article>
+
+                        <article class="variety-card">
+                            <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Echtes Kent Mango Foto" loading="lazy">
+                            <h3>Kent</h3>
+                            <p>Späte Ernte, saftige Körner und dezente Säure. Kent bleibt beim Schneiden besonders stabil und ist ideal für feine Präsentationen.</p>
+                        </article>
+
+                        <article class="variety-card">
+                            <img src="https://images.unsplash.com/photo-1515940180717-7e6fc11df4c7?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Echtes Ataulfo Mango Foto" loading="lazy">
+                            <h3>Ataulfo</h3>
+                            <p>Klein, buttrig und honigsüß. Die „Champagner-Mango“ aus Mexiko verführt mit samtiger Textur und intensiven Fruchtnoten.</p>
+                        </article>
+
+                        <article class="variety-card">
+                            <img src="https://images.unsplash.com/photo-1510337550640-4c6da177c2c8?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Echtes Tommy Atkins Mango Foto" loading="lazy">
+                            <h3>Tommy Atkins</h3>
+                            <p>Lange Haltbarkeit und kräftige Farben machen diese robuste Sorte zum Favoriten im Premium-Exportsegment.</p>
+                        </article>
+
+                        <article class="variety-card">
+                            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Echtes Keitt Mango Foto" loading="lazy">
+                            <h3>Keitt</h3>
+                            <p>Beim Erntezeitpunkt noch grün, aber bereits süß. Keitt beeindruckt durch seine Größe, zarte Textur und langanhaltende Frische.</p>
+                        </article>
+
+                        <article class="variety-card">
+                            <img src="https://images.unsplash.com/photo-1547480052-683e5144f5f1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Echtes Palmer Mango Foto" loading="lazy">
+                            <h3>Palmer</h3>
+                            <p>Elegante Form, rot-goldene Schale und feines Aroma. Palmer verbindet optische Schönheit mit geschmacklicher Finesse.</p>
+                        </article>
                     </div>
                 </div>
             </section>
@@ -148,105 +243,6 @@
             </footer>
         </main>
 
-        <script>
-            // Set current year
-            document.getElementById('year').textContent = new Date().getFullYear();
-
-            // Simple reveal-on-scroll
-            const observer = new IntersectionObserver((entries)=>{
-                entries.forEach(e=>{
-                    if(e.isIntersecting) e.target.classList.add('visible');
-                });
-            },{threshold:0.12});
-            document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-        </script>
+        <script src="main.js" defer></script>
     </body>
-</html>
-
-    <!-- INTRO SECTION -->
-    <section class="intro-section">
-        <div class="container">
-            <article class="intro-card">
-                <h2>Was ist eine Mango?</h2>
-                <p>Die Mango ist eine tropische Frucht, die für ihre cremige Konsistenz, ihren süßlichen Geschmack und ihre vielfältige Verwendbarkeit bekannt ist. Mit über 1000 Sorten weltweit, jeweils mit ihrem eigenen Geschmacksprofil, ist die Mango eine wahre Schatzgrube für Geschmack und Gesundheit. Von der süßesten bis zur fasrigsten Variante – es gibt für jeden Gaumen etwas.</p>
-            </article>
-        </div>
-    </section>
-
-    <!-- MAIN FEATURES SECTION -->
-    <section class="features-section">
-        <div class="container">
-            <div class="features-grid">
-                <article class="feature-card">
-                    <div class="feature-icon">🌍</div>
-                    <h3>Herkunft</h3>
-                    <p>Ursprünglich aus Süd- und Südostasien stammend, wird die Mango heute in über 100 Ländern angebaut. Indien bleibt der größte Produzent und der Geburtsort dieser wundervollen Frucht.</p>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">🍯</div>
-                    <h3>Geschmack</h3>
-                    <p>Mit ihrem Süßstoff, der an Pfirsich, Ananas und tropische Noten erinnert, ist die Mango ein Fest für die Geschmacksknospen. Cremig und saftig zugleich – ein wahres Meisterwerk der Natur.</p>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">🥭</div>
-                    <h3>Verwendung</h3>
-                    <p>Egal ob frisch genossen, in Smoothies, als Saft oder in der Küche verarbeitet – die Mango ist unglaublich vielseitig einsetzbar und bereichert jede Küche.</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- VARIETIES SECTION -->
-    <section class="varieties-section">
-        <div class="container">
-            <h2 class="section-title">Mango Sorten</h2>
-            <p class="section-subtitle">Entdecke die Vielfalt der Mangos – jede mit ihrem eigenen Charakter</p>
-            
-            <div class="varieties-grid">
-                <article class="variety-card">
-                    <div class="variety-icon">🟡</div>
-                    <h3>Alphonso</h3>
-                    <p>Die König aller Mangos – süß, cremig und aromaintensiv. Ein wahres Geschmackserlebnis.</p>
-                </article>
-
-                <article class="variety-card">
-                    <div class="variety-icon">🟠</div>
-                    <h3>Kent</h3>
-                    <p>Große, fleischige Frucht mit süßlichem Geschmack. Perfekt für den Rohverzehr.</p>
-                </article>
-
-                <article class="variety-card">
-                    <div class="variety-icon">🟡</div>
-                    <h3>Ataulfo</h3>
-                    <p>Klein, aber oho! Cremig und süß mit wenig Faser. Ein Geheimtipp.</p>
-                </article>
-
-                <article class="variety-card">
-                    <div class="variety-icon">🟠</div>
-                    <h3>Tommy Atkins</h3>
-                    <p>Robuste Sorte mit würzigem Aroma. Beliebt in den USA und international.</p>
-                </article>
-
-                <article class="variety-card">
-                    <div class="variety-icon">🟡</div>
-                    <h3>Keitt</h3>
-                    <p>Große, grünliche Schale mit süßem Geschmack. Reift auch nach der Ernte nach.</p>
-                </article>
-
-                <article class="variety-card">
-                    <div class="variety-icon">🟠</div>
-                    <h3>Palmer</h3>
-                    <p>Dunkelrote Färbung, süßes Aroma und wenig Faser. Eine echte Schönheit.</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>🥭 Die Mango – Königin der Früchte</p>
-    </footer>
-</body>
 </html>
